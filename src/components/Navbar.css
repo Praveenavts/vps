@@ -1,0 +1,84 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px;
+  background-color: rgb(194, 203, 225);
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  border-bottom: 3px solid rgb(44, 45, 44);
+  z-index: 1000;
+}
+
+.navbar-left img {
+  max-width: 100%;
+  height: 90px;
+}
+
+.navbar-left {
+  display: flex;
+  align-items: center;
+}
+
+.navbar-right {
+  display: flex;
+  align-items: center;
+}
+.username {
+  color: rgb(73, 80, 101);
+  margin-right: 20px;
+  font-size: 25px;
+}
+
+.logout-button {
+  color: white;
+  background-color: rgb(0, 2, 8);
+  border: none;
+  padding: 10px 15px;
+  cursor: pointer;
+}
+
+.logout-button:hover {
+  background-color: rgb(0, 1, 5);
+}
+
+.sidebar {
+  margin-top: 90px;
+  width: 250px;
+  position: fixed;
+  height: 100%;
+  overflow: auto;
+  top: 0;
+  left: 0;
+  padding: 10px 0px;
+  background-color: rgb(194, 203, 225);
+  border-right: 3px solid rgb(44, 45, 44);
+}
+.sidebar ul {
+  list-style-type: none;
+  padding: 0;
+}
+.sidebar ul li {
+  padding: 20px 0px;
+  text-align: center;
+  border-bottom: 2px solid rgb(44, 45, 44);
+}
+.sidebar ul li a {
+  text-decoration: none;
+  color: rgb(74, 74, 82);
+  font-size: 22px;
+  font-weight: 900;
+}
+.sidebar ul li:hover a {
+  color: rgb(4, 4, 4);
+}
+.sidebar ul li:hover {
+  background-color: rgb(157, 169, 172);
+}
+.payslip-template {
+  border: 1px solid #000;
+  padding: 10px;
+  margin: 10px 0;
+}

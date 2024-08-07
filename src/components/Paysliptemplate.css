@@ -1,0 +1,136 @@
+.payslip {
+  font-family: Arial, sans-serif;
+  width: 800px;
+  margin: 20px auto;
+  border: 1px solid #000;
+  padding: 20px;
+}
+
+.templates-page{
+  width:90%;
+  margin: auto;
+}
+.template-buttons{
+  display:flex;
+  gap:10px;
+}
+/* Box shadow for template-option */
+.template-option {
+  width: 33.3%;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Adding a subtle shadow */
+  margin: 20px; /* Optional: Adding some margin to space out the options */
+  transition: transform 0.3s ease; /* Adding a transition for hover effect */
+}
+
+.template-option:hover {
+  transform: scale(1.05); /* Slightly enlarging on hover */
+}
+
+/* Button styling, animation, and box shadow */
+.tem-btnn {
+  color: antiquewhite;
+  background-color: black;
+  border: none;
+  padding: 10px 20px; /* Adding padding */
+  font-size: 16px; /* Adjusting font size */
+  cursor: pointer; /* Adding cursor pointer */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Adding box shadow */
+  transition: background-color 0.3s ease, transform 0.3s ease; /* Adding transitions */
+}
+
+/* Hover effects */
+.tem-btnn:hover {
+  background-color: #333; /* Darkening background color on hover */
+  transform: translateY(-2px); /* Slightly lifting the button on hover */
+}
+
+/* Active state effects */
+.tem-btnn:active {
+  transform: translateY(2px); /* Button appears pressed down */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* Reducing shadow on active state */
+}
+
+
+
+
+.template-option img{
+  max-width: 100%;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid #000;
+  padding-bottom: 10px;
+}
+
+.company-info {
+  display:flex;
+  gap:10px;
+}
+
+.company-logo {
+  width:40%;
+}
+.company-logo img{
+  max-width:100%;
+}
+.company-deatils{
+  width:60%;
+}
+.comp-para{
+  line-height: 30px;
+  font-size: 20px;
+  text-align: left !important;
+}
+.com-span{
+  color:rgb(5, 5, 197);
+}
+.employee-info {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.employee-details {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.employee-details-col {
+  width: 48%;
+}
+
+.salary-details {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.salary-details input {
+  width: calc(50% - 10px);
+}
+
+.summary {
+  margin-top: 20px;
+  border-top: 1px solid #000;
+  padding-top: 10px;
+}
+
+.net-pay,
+.amount-in-words,
+.leave-days {
+  margin-bottom: 10px;
+}
+
+.signature {
+  margin-top: 30px;
+  text-align: right;
+}
+
+.signature p {
+  display: inline-block;
+  border-top: 1px solid #000;
+  padding-top: 10px;
+  margin-top: 20px;
+}
